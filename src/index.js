@@ -1,7 +1,7 @@
 
 // You should implement your task here.
 
-function towelSort (matrix) {
+module.exports = function towelSort (matrix) {
     let arrNew = new Array;
     if (matrix === undefined || matrix === []) {return [];}
     for (let i=0; i< matrix.length; i++) {
